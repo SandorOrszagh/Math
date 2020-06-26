@@ -1,2 +1,2 @@
-# Math
-Very simple Math Challenge
+# MathSwift
+Very simple Math Challenge in Swift
