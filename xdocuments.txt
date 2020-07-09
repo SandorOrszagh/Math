@@ -1,0 +1,23 @@
+*GameController
+---------------------
+  var gameController: GameController = GameController.shared() 
+  func getInfo() -> String
+  func gameStep() -> Bool
+  func gameLoop()
+
+*Question
+----------------------
+  func newRandomQuestion() // feltolti elementA-t és elementB-t - 2...API.level range-ben  
+  func getAnswer() -> Int  // visszaadja A+B-t
+  func getQuestion() -> (a:Int,b:Int)
+
+  *API
+----------------------
+  func setLevel(level:Int)
+
+
+  *InputController
+----------------------
+  func getConsoleInt() -> (value:Int?,quit:Bool)
+
+  
